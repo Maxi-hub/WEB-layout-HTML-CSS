@@ -1,0 +1,139 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    max-width: 1920px;
+    font-family: Gilroy-Bold;
+}
+
+.container {
+    max-width: 1131px;
+    margin: 0 auto;
+}
+
+.top__header {
+    margin-top: 47px;
+    margin-bottom: 83px;
+    gap: 346px;
+}
+
+.flex {
+    display: flex;
+    align-items: center;
+}
+
+.top__link {
+    text-decoration: none;
+    color: black;
+    padding: 11px 30px 12px 0;
+}
+
+.color_link {
+    color: #F25822;
+}
+
+.active__button {
+    border-radius: 30px;
+    background: rgb(242, 88, 34);
+    color: rgb(255, 255, 255);
+    font-family: Gilroy-SemiBold;
+    font-size: 15px;
+    font-weight: 400;
+    text-align: left;
+    width: 120px;
+    height: 40px;
+    align-self: center;
+    border-color: rgb(242, 88, 34);
+    box-shadow: none;
+    color: rgb(255, 255, 255);
+    justify-content: center;
+}
+
+.top__text {
+    gap: 41px;
+}
+
+.top__title {
+    color: rgb(0, 0, 0);
+    font-size: 60px;
+    font-weight: 400;
+    text-align: left;
+}
+
+.header__text {
+    margin-bottom: 103px;
+}
+
+.top__text {
+    color: rgb(136, 136, 136);
+    font-family: Gilroy-Medium;
+    font-size: 20px;
+    font-weight: 400;
+    text-align: left;
+    margin-top: 17px;
+    margin-bottom: 37px;
+}
+
+.buttons {
+    gap: 27px;
+}
+
+.video__button {
+    width: 135px;
+    height: 30px;
+    background-color: white;
+    border-color: white;
+    color: rgb(170, 170, 170);
+    font-size: 15px;
+    font-weight: 400;
+    text-align: left;
+}
+
+.play__button {
+    box-sizing: border-box;
+    border: 3px solid rgb(221, 221, 221);
+    border-radius: 25px;
+}
+
+.top__logos {
+    justify-content: space-between;
+    padding-top: 97px;
+    padding-bottom: 96px;
+}
+
+.business {
+    height: 540px;
+    background: #FAFAFA;
+    position: relative;
+}
+
+.business_topic {
+    margin-left: 373px;
+    width: 515px;
+    height: 289px;
+}
+
+.business__title {
+    color: rgb(0, 0, 0);
+    font-family: Gilroy-Bold;
+    font-size: 45px;
+    font-weight: 400;
+    text-align: left;
+
+}
+
+.business_text {
+    color: rgb(102, 102, 102);
+    font-family: Lexend;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 150%;
+    text-align: left;
+}
+
+.business_img {
+    position: absolute;
+    right: 150px;
+}
