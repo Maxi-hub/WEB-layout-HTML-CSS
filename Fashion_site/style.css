@@ -171,5 +171,57 @@ body {
     border-color: rgb(241, 109, 127);
     color: #F26376;
     background-color: white;
-    bor
+}
+
+
+@media(min-width: 768px) and (max-width: 1199px) {
+    .center {
+        padding-left: calc(50% - 373px);
+        padding-right: calc(50% - 373px);
+    }
+
+    .header {
+        height: 74px;
+    }
+
+    .top__content {
+        height: 368px;
+    }
+
+    .top__img {
+        width: 386px;
+        height: 368px;
+    }
+
+    .top__content_title2 {
+        font-size: 26px;
+    }
+
+    .clothes__section {
+        flex-wrap: wrap;
+        margin-bottom: 110px;
+        gap: 20px;
+    }
+
+    .section__img {
+        width: 232px;
+        height: 167px;
+    }
+
+    .section__img_accesories {
+        width: 745px;
+        height: 116px;
+    }
+    .content {
+        margin-bottom: 70px;
+    }
+
+    .items {
+        gap: 16px;
+        margin-bottom: 33px;
+    }
+
+    .content__text {
+        margin-bottom: 74px;
+    }
 }
