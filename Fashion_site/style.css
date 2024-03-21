@@ -212,6 +212,7 @@ body {
         width: 745px;
         height: 116px;
     }
+
     .content {
         margin-bottom: 70px;
     }
@@ -224,4 +225,79 @@ body {
     .content__text {
         margin-bottom: 74px;
     }
+}
+
+@media(max-width: 767px) {
+    .center {
+        padding-left: calc(50% - 179px);
+        padding-right: calc(50% - 179px);
+    }
+
+    .top__content {
+        height: 363px;
+        justify-content: center;
+    }
+
+    .img__contacts, .img__bucket, .top__img {
+        display: none;
+    }
+
+    .top__content_title {
+        width: 236px;
+        height: 66px;
+    }
+
+    .top__content_title1 {
+        font-size: 30px;
+        font-weight: 900;
+    }
+
+    .top__content_title2 {
+        font-size: 20px;
+        font-weight: 700;
+    }
+
+    .clothes__section {
+        gap: 32px;
+        margin-bottom: 64px;
+    }
+
+    .section__img {
+        width: 343px;
+        height: 247px;
+    }
+
+    .section__img_accesories {
+        width: 343px;
+        height: 111px;
+    }
+
+    .content {
+        margin-bottom: 85px;
+    }
+
+    .content__text {
+        margin-top: 3px;
+        margin-bottom: 65px;
+    }
+
+    .items {
+        gap: 16px;
+        margin-bottom: 41px;
+    }
+
+    .item {
+        width: 359px;
+        height: 579px;
+    }
+
+    .item_img {
+        width: 359px;
+        height: 418px;
+    }
+
+    .special {
+        background-color: rgb(240, 236, 236);
+    }
+
 }
