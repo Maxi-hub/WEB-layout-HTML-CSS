@@ -288,8 +288,9 @@ h3 {
     margin-top: 32px;
     border-top-left-radius: 23px;
     border-bottom-left-radius: 23px;
-    padding-left: 22px;
+    padding: 0 22px;
     outline: none;
+    cursor: pointer;
 }
 
 .email__area:active {
