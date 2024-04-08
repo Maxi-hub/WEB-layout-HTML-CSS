@@ -221,7 +221,10 @@ img {
 }
 
 .item:hover::after {
-    content: url(img/bucket.png) " Add to Card";
+    background: url(img/bucket.png) no-repeat left;
+    background-position: 10%;
+    gap: 40px;
+    content: " Add to Card";
     position: absolute;
     width: 138px;
     height: 43px;
@@ -234,8 +237,9 @@ img {
     line-height: 17px;
     margin-right: 10px;
     display: flex;
-    justify-content: center;
     align-items: center;
+    justify-content: flex-end;
+    padding-right: 10px;
     cursor: pointer;
 }
 
